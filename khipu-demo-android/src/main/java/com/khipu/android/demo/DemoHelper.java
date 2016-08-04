@@ -27,8 +27,8 @@ import javax.crypto.spec.SecretKeySpec;
 
 class DemoHelper {
 
-	private static final Integer ID_DEL_COBRADOR = 2581;
-	private static final String SECRET_DEL_COBRADOR = "0ce9d2d383eb387ddf757fcd9eac8e4c53ee2c1f";
+	private static final Integer ID_DEL_COBRADOR = 4332;//2581;
+	private static final String SECRET_DEL_COBRADOR = "fb957e59e95905c8764a97474380b4300eec7aa5";//"0ce9d2d383eb387ddf757fcd9eac8e4c53ee2c1f";
 
 
 	static JSONObject createPayment(String subject, String amount, String payerEmail) {
@@ -44,6 +44,8 @@ class DemoHelper {
 		map.put("amount", amount);
 		map.put("currency", "CLP");
 		map.put("payer_email", payerEmail);
+		map.put("return_url", "khipudemo://return.khipu.com");
+		map.put("cancel_url", "khipudemo://cancel.khipu.com");
 
 		List<String> keys = new LinkedList<>(map.keySet());
 		Collections.sort(keys);

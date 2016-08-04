@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 			CharSequence text = "";
 			if ("cancel.khipu.com".equals(data.getAuthority())) {
 				text = "El usuario rechazó el pago";
-			} else if ("success.khipu.com".equals(data.getAuthority())) {
+			} else if ("return.khipu.com".equals(data.getAuthority())) {
 				text = "El pago se está verificando";
 			}
 			int duration = Toast.LENGTH_LONG;

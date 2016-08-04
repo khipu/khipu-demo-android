@@ -21,7 +21,7 @@
             android:layout_width="0dp"/>
 
         <EditText
-            android:text="Cobro de demo"
+            android:text="Compra Combo 2"
             android:layout_weight=".8"
             android:layout_width="0dp"
             android:id="@+id/subject"
@@ -40,7 +40,7 @@
             android:layout_width="0dp"/>
 
         <EditText
-            android:text="demo@khipu.com"
+            android:text="info@khipu.com"
             android:layout_weight=".8"
             android:layout_width="0dp"
             android:id="@+id/payer"
@@ -60,7 +60,7 @@
             android:layout_width="0dp"/>
 
         <EditText
-            android:text="375"
+            android:text="4990"
             android:layout_weight=".8"
             android:layout_width="0dp"
             android:inputType="number"
